@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 8px;
 }
 
 .logo {
@@ -20,8 +20,10 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   padding: 0;
+  /* after looking at solution, not sure why margin: 0 is needed */
+  margin: 0;
   display: flex;
-  gap: 15px;
+  gap: 8px;
 }
 
 a {
