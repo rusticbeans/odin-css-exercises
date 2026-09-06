@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,7 +20,7 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
 }
 
 .icon {
@@ -66,4 +67,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Assignment */
+
+.modal {
+  padding: 14px;
+  display: flex;
+  gap: 14px;
+}
+
+.header {
+  /* header slightly larget text-size and bold */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text {
+  padding: 14px 0 14px 0;
+}
+
+.header-container {
+  /* align close button vertically with header, and top-right of the card */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button {
+  /* can't get the X to match the desired outcome */
+  font-weight: 950;
 }
